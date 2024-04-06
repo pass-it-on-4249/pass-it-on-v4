@@ -61,7 +61,7 @@ export default function SubCategories(
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute left-0 z-10 mt-2 w-72 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items id="sub-cat-drop" className="absolute left-0 z-10 mt-2 w-72 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             {Object.keys(subcategoryOptions).map((mainCategory) => (
               <Menu.Item key={mainCategory}>
@@ -94,7 +94,7 @@ export default function SubCategories(
                               {({ active }) => (
                                 <a
                                   href="#"
-                                  id="drop-sub"
+                                  id="drop-sub-option"
                                   className={classNames(
                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                     'block px-4 py-2 text-sm'
