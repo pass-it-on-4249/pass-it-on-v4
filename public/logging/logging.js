@@ -226,9 +226,9 @@ return {
 //
 /////////////////////////////////////////////////////////////////////////////
 
-// Logging v1 submission function
+// Logging v4 submission function
 // submits to the google form at this URL:
-// docs.google.com/forms/d/e/1FAIpQLSeVPQRcJ-QTRUg6iVzxVv-MSpezkJ-lfdEt4sdmDsVzCGG3lg/viewform?usp=sf_link
+// docs.google.com/forms/d/e/1FAIpQLSd2TJ8rBwU8lH2iLsJqbdtSq-P1rBD5UxJD5wjg2G-Yg_CdYw/viewform?usp=sf_link
 function sendNetworkLog(
   uid,
   timeMs,
@@ -238,7 +238,7 @@ function sendNetworkLog(
   info,
   state,
   log_version) {
-var formid = "e/1FAIpQLSeVPQRcJ-QTRUg6iVzxVv-MSpezkJ-lfdEt4sdmDsVzCGG3lg";
+var formid = "e/1FAIpQLSd2TJ8rBwU8lH2iLsJqbdtSq-P1rBD5UxJD5wjg2G-Yg_CdYw";
 var data = {
   "entry.1613142373": uid,
   "entry.1589787878": timeMs,
